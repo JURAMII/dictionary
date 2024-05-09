@@ -1,5 +1,4 @@
 import searchIcon from'../assets/free-icon-search-4347487.png'
-import notion from'../assets/png-transparent-notion-logo.png'
 
 import { useState, useContext } from "react"
 import { editContext } from "../App"

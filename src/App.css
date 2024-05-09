@@ -48,9 +48,7 @@ header a{
   font-weight: bold;
   padding: 20px 0 10px 0;
 }
-/* .lit.active{
-  border-bottom : '3px solid #BF3131'
-} */
+
 /* serach */
 .search{
   position: relative;
@@ -205,8 +203,3 @@ header a{
   font-size: 16px;
   font-weight: bold;
 }
-/* .writeBtn_wrap button a{
-  color: white;
-  font-size: 16px;
-  font-weight: bold;
-} */
