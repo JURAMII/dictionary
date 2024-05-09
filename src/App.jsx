@@ -84,7 +84,7 @@ function App() {
      <Tap onTap={onTap} SetOnTap={SetOnTap}/>
        <main>
         <Routes>
-          <Route path='/' element={<Main />}/>
+          <Route path='/' element={<Main onTap={onTap}/>}/>
           <Route path='/write' element={<Write/>}/>
         </Routes>
        </main>
