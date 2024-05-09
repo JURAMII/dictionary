@@ -89,7 +89,7 @@ function App() {
        <main>
         <Routes>
           <Route path='/' element={<Main/>}/>
-          <Route path='/write' element={<Write/>}/>
+          <Route path='/write' element={<Write />}/>
         </Routes>
        </main>
      </editContext.Provider>

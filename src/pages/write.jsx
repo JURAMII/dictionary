@@ -3,7 +3,6 @@ import { useContext } from "react"
 import { editContext } from "../App"
 
 import '../App.css'
-import { Link } from "react-router-dom"
 
 const Write = () =>{
     
@@ -32,7 +31,6 @@ const Write = () =>{
             }
             createWord(wordName, wordText, cate)
             reset()
-            history.back()
         }
     
         // let cate 
