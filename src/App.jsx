@@ -67,6 +67,10 @@ function App() {
 
   const [onTap, SetOnTap] =useState(true)
 
+  function toMain(){
+    SetOnTap(true)
+  }
+
 
   return (
     <>
@@ -77,7 +81,7 @@ function App() {
      <editContext.Provider value={memoWord}>
      <header>
       <Link to='/'>
-      <h1>프론트엔드 사전</h1>
+      <h1 onClick={toMain}>프론트엔드 사전</h1>
       <Dicsearch />
       </Link>
      </header>
