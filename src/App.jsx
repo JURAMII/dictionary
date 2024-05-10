@@ -89,7 +89,7 @@ function App() {
        <main>
         <Routes>
           <Route path='/' element={<Main/>}/>
-          <Route path='/write' element={<Write />}/>
+          <Route path='/write' element={<Write SetOnTap={SetOnTap}/>}/>
         </Routes>
        </main>
      </editContext.Provider>

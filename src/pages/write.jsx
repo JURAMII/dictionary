@@ -4,7 +4,7 @@ import { editContext } from "../App"
 
 import '../App.css'
 
-const Write = () =>{
+const Write = ({SetOnTap}) =>{
     
     const [{wordName, wordText, wordType}, onchange, reset] = DicInput({ //커스텀훅
         wordName: '',
@@ -13,6 +13,7 @@ const Write = () =>{
     })
 
     const {createWord} = useContext(editContext)
+
 
     const createBtn = () =>{
         // const cate = wordType === undefined ? 'html' :  wordType
@@ -31,6 +32,10 @@ const Write = () =>{
             }
             createWord(wordName, wordText, cate)
             reset()
+            SetOnTap(true)
+            window.history.back();
+
+
         }
     
         // let cate 
