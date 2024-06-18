@@ -1,8 +1,11 @@
-# React + Vite
+# 프론트엔드 사전
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 📖개발기간
+2024.05.07 - 05.09
 
-Currently, two official plugins are available:
+# 📖Stacks
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# 📖JURAM's Comment
+CRUD기능과 sorting, 검색 기능을 구현하였습니다.
