@@ -23,6 +23,7 @@ const Detail = ({id,wordName,wordType,wordText,createDate}) =>{
 
     function editBtn(){
         setOnUpdate(!onUpdate)
+        setEditText(wordText)
     }
 
     function editChange(e){
