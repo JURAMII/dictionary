@@ -39,8 +39,6 @@ const Write = ({SetOnTap}) =>{
         }
     }
 
-    
-
     return(
      <div className="write_wrap">
         <div className="write_form">
