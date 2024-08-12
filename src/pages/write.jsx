@@ -37,16 +37,6 @@ const Write = ({SetOnTap}) =>{
 
 
         }
-    
-        // let cate 
-        // if(wordType === undefined || wordType === ''){
-        //     cate = 'html'
-        // }else{
-        //     cate = wordType
-        // }
-
-        // createWord(wordName, wordText, cate)
-        // reset()
     }
 
     
