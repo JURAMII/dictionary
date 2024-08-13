@@ -20,7 +20,7 @@ function App() {
   const [state, dispatch] =useReducer(Reducer, Contents)
   const {dics} = state;
   const {wordName, wordText, wordType} = state.inputs;
-  const userId = useRef(11);
+  const userId = useRef(31)
 
   const createWord = useCallback((wordName, wordText, wordType) =>{
     const today = new Date();

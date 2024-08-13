@@ -8,7 +8,7 @@ import '../App.css';
 
 const List = () =>{
 
-    const datas = useContext(dicContext)
+    const datas = useContext(dicContext).sort((a,b)=>(a.id-b.id)).reverse();
 
     const [optList, setOptList] = useState('All')
     // console.log(datas)
